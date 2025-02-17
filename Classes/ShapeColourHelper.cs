@@ -20,5 +20,15 @@ namespace Week1ObjectOriented.Classes
             return s;
         }
 
+        //new method for random colours
+        public static Shape AddRandomColour(Shape s)
+        {
+            string[] colours = { "Yellow", "Red", "Blue", "Green", "Orange" };
+            Random randomcolour = new Random();
+            int index = randomcolour.Next(colours.Length);
+            s.Colour = colours[index];
+            return s;
+        }
+
     }
 }

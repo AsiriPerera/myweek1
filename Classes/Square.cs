@@ -3,7 +3,7 @@ using Week1ObjectOriented.Interfaces;
 
 namespace Week1ObjectOriented.Classes
 {
-    public class Square : Shape, IFaces
+    public class Square : Shape, IFaces, IShape
     {
         private int side;
 
@@ -25,9 +25,16 @@ namespace Week1ObjectOriented.Classes
             side = s;
         }
 
-        public override int GetArea()
+        //from the abstract class
+        //public override double GetArea()
+        //{
+        //    return side * side; 
+        //}
+
+        //from the IShape interface
+        public double GetArea()
         {
-            return side * side; 
+            return side * side;
         }
 
         public int GetFaces()

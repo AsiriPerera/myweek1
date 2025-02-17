@@ -7,9 +7,16 @@ using Week1ObjectOriented.Interfaces;
 
 namespace Week1ObjectOriented.Classes
 {
-    public class Triangle : Shape, IFaces
+    public class Triangle : Shape, IFaces, IShape
     {
-        public override int GetArea()
+        //from the abstract class
+        //public override double GetArea()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //from the IShape interface
+        public double GetArea()
         {
             throw new NotImplementedException();
         }

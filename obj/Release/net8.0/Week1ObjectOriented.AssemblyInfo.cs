@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Week1ObjectOriented")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42f2da42b6454477e06a1746c6bdb98334d46f1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1e392a68d2cdb7d15bb853ee5c984da414dd9f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Week1ObjectOriented")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Week1ObjectOriented")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
